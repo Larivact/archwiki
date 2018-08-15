@@ -292,6 +292,7 @@ $wgGroupPermissions['sysop']['checkuser-log'] = true;
 
 # ParserFunctions extension
 wfLoadExtension( 'ParserFunctions' );
+$wgPFEnableStringFunctions = true;
 
 # Interwiki extension
 wfLoadExtension( 'Interwiki' );
